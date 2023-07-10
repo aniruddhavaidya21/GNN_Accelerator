@@ -1,0 +1,54 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP3
+Date:        Tue Mar 28 18:14:22 2023
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     39
+    Unconnected ports (LINT-28)                                    32
+    Shorted outputs (LINT-31)                                       7
+--------------------------------------------------------------------------------
+
+Warning: In design 'ReLu', port 'y4[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y4[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y5[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y6[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ReLu', port 'y7[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'dnn_top', output port 'out10_ready' is connected directly to output port 'out11_ready'. (LINT-31)
+Warning: In design 'layer_1', output port 'out[20]' is connected directly to output port 'out[14]'. (LINT-31)
+Warning: In design 'layer_1', output port 'out[20]' is connected directly to output port 'out[15]'. (LINT-31)
+Warning: In design 'layer_1', output port 'out[20]' is connected directly to output port 'out[16]'. (LINT-31)
+Warning: In design 'layer_1', output port 'out[20]' is connected directly to output port 'out[17]'. (LINT-31)
+Warning: In design 'layer_1', output port 'out[20]' is connected directly to output port 'out[18]'. (LINT-31)
+Warning: In design 'layer_1', output port 'out[20]' is connected directly to output port 'out[19]'. (LINT-31)
+1

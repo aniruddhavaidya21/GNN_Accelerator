@@ -1,0 +1,92 @@
+Loading db file '/cae/apps/data/synopsys-2022/syn/T-2022.03-SP3/libraries/syn/gtech.db'
+Loading db file '/cae/apps/data/synopsys-2022/syn/T-2022.03-SP3/libraries/syn/standard.sldb'
+  Loading link library 'asap7sc7p5t_AO_RVT_TT_nldm_211120'
+  Loading link library 'asap7sc7p5t_OA_RVT_TT_nldm_211120'
+  Loading link library 'asap7sc7p5t_SIMPLE_RVT_TT_nldm_211120'
+  Loading link library 'asap7sc7p5t_INVBUF_RVT_TT_nldm_211120'
+  Loading link library 'asap7sc7p5t_SEQ_RVT_TT_nldm_220123'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Presto compilation completed successfully. (top)
+Elaborated 1 design.
+Current design is now 'top'.
+Information: Building the design 'dnn_top'. (HDL-193)
+
+Inferred memory devices in process
+	in routine dnn_top line 40 in file
+		'/filespace/v/vaidya4/MS3_Synthesis/dnn_top.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   in_ready1_q_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine dnn_top line 53 in file
+		'/filespace/v/vaidya4/MS3_Synthesis/dnn_top.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   in_ready2_q_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine dnn_top line 59 in file
+		'/filespace/v/vaidya4/MS3_Synthesis/dnn_top.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   in_ready3_q_reg   | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (dnn_top)
+Information: Building the design 'layer_1'. (HDL-193)
+
+Inferred memory devices in process
+	in routine layer_1 line 22 in file
+		'/filespace/v/vaidya4/MS3_Synthesis/layer_1.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      in1_q_reg      | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|      in2_q_reg      | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|      in3_q_reg      | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|      in4_q_reg      | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w1_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w2_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w3_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w4_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (layer_1)
+Information: Building the design 'ReLu'. (HDL-193)
+
+Inferred memory devices in process
+	in routine ReLu line 17 in file
+		'/filespace/v/vaidya4/MS3_Synthesis/ReLu.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      y4_q_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      y5_q_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      y6_q_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+|      y7_q_reg       | Flip-flop |  13   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (ReLu)
+Information: Building the design 'layer_2'. (HDL-193)
+
+Inferred memory devices in process
+	in routine layer_2 line 22 in file
+		'/filespace/v/vaidya4/MS3_Synthesis/layer_2.sv'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      in1_q_reg      | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|      in2_q_reg      | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|      in3_q_reg      | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|      in4_q_reg      | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w1_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w2_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w3_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      w4_q_reg       | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully. (layer_2)
+1
